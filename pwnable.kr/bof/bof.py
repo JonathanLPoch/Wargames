@@ -4,8 +4,8 @@ local = False
 
 if local:
   r = process('./bof')
-    pause()
-      r.recvuntil(': ')
+  pause()
+  r.recvuntil(': ')
 else:
   r = remote('pwnable.kr', 9000)
 
