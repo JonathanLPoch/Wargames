@@ -14,3 +14,5 @@ Here we can see the layout of the stack relatively easily. The `0x41` is the hex
 With the size of the char array, the stack canary, the base pointer, and return address, we know we need to feed our buffer `52` characters in order to reach our parameter. After this, we will be directly overwriting the argument to function, `key`.
 
 Since the program was compiled on a an x86 Linux system we already know it's a little endian system. So, our payload looks something like `"A"*52+"\xBE\xBA\xFE\xCA\x00"`. And from here, we simply `cat flag` from our shell.
+
+While the stack canary would usually prevent us from overwriting the stack, we don't rely on overwriting the return address, so we complete our exploit before the stack canary gets checked at the end of the function. Otherwise, we would be unable to modify the return address unless we had some other means of leaking or predicting the canary.
