@@ -6,7 +6,7 @@ Through running a quick [checksec](https://github.com/slimm609/checksec.sh), we 
 
 First we run the program with an input of 32 "A"'s. When we examine the stack in `pwndbg`, we see our input: 
 
-[![stack](https://github.com/JonathanLPoch/Wargames-CTFs/blob/master/pwnable.kr/bof/stack.png)]
+[![stack](https://github.com/JonathanLPoch/Wargames-CTFs/blob/master/pwnable.kr/bof/img/stack.png)]
 
 
 Here we can see the layout of the stack relatively easily. The `0x41` is the hex representation of the ascii "A", and we can see where the variable overflowme lies. Right after this, we see the stack canary `0x3a5c9600`. We can print out the value of `$ebp`, the base pointer, and see that it is `0xffffcc98`. This means the address directly after it is the return address, `0x565569f`, and then we see the parameter `0xdeadbeef` passed into `func`.
