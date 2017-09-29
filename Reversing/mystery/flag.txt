@@ -1,0 +1,9 @@
+flag{lvl_uno_completo}
+
+flag{deux_finito}
+
+flag{tree_down_man}
+
+flag{noch einer}
+
+flag{you_deadass_got_it_b}

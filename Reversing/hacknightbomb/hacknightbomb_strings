@@ -1,0 +1,137 @@
+/lib/ld-linux.so.2
+libm.so.6
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+sqrt
+libc.so.6
+_IO_stdin_used
+exit
+fopen
+perror
+__isoc99_scanf
+puts
+__stack_chk_fail
+stdin
+printf
+fgets
+strlen
+fclose
+__libc_start_main
+GLIBC_2.0
+GLIBC_2.7
+GLIBC_2.4
+GLIBC_2.1
+PTRh
+QVhy
+[^_]
+     _.-^^---....,,--      
+ _--                  --_  
+<                        >)
+|         B O O M         |
+ \._                   _./ 
+    ```--. . , ; .--'''    
+          | |   |          
+       .-=||  | |=-.       
+       `-=#$%%&%%$#=-'       
+          | ;  :|          
+ _____.,-#%%&$@%%#&#~,._____ 
+Round 1: 
+%d%*c
+You got lucky this time.
+Round 2: 
+Not bad
+Round 3: 
+Almost there
+Round 4: 
+Woah, didn't think you'd get this far
+So I hear you're looking for a flag. First, you must defuse my bomb.
+I guess you can have the flag
+flag.txt
+Error opening file
+;*2$"
+GCC: (Ubuntu 4.8.4-2ubuntu1~14.04.3) 4.8.4
+.symtab
+.strtab
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.comment
+crtstuff.c
+__JCR_LIST__
+deregister_tm_clones
+register_tm_clones
+__do_global_dtors_aux
+completed.6591
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+bomb.c
+__FRAME_END__
+__JCR_END__
+__init_array_end
+_DYNAMIC
+__init_array_start
+_GLOBAL_OFFSET_TABLE_
+__libc_csu_fini
+_ITM_deregisterTMCloneTable
+__x86.get_pc_thunk.bx
+data_start
+printf@@GLIBC_2.0
+fgets@@GLIBC_2.0
+_edata
+fclose@@GLIBC_2.1
+round1
+_fini
+__stack_chk_fail@@GLIBC_2.4
+round3
+perror@@GLIBC_2.0
+explode
+__data_start
+puts@@GLIBC_2.0
+__gmon_start__
+exit@@GLIBC_2.0
+__dso_handle
+_IO_stdin_used
+strlen@@GLIBC_2.0
+__libc_start_main@@GLIBC_2.0
+__libc_csu_init
+stdin@@GLIBC_2.0
+fopen@@GLIBC_2.1
+_end
+sqrt@@GLIBC_2.0
+_start
+_fp_hw
+__bss_start
+main
+round4
+round2
+prime
+_Jv_RegisterClasses
+__isoc99_scanf@@GLIBC_2.7
+__TMC_END__
+_ITM_registerTMCloneTable
+_init
