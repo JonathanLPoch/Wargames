@@ -1,0 +1,39 @@
+Phase 1: Simple string comparison - 
+Solution: The future will be better tomorrow.
+
+Phase 2: Reads 6 integers into array. Loops through array and...
+First num > 0
+Next number = Prev num + (index+1). 1 + 1 = 2... 2 + 2 = 4... 4 + 3 = 7... 7 + 4 = 11... 11 + 5 = 16
+Solution: 1 2 4 7 11 16
+
+Phase 3: Reads 6 integers into array. Loops through array and...
+First num = 1
+Next number = Prev num * 2
+Solution: 1 2 4 8 16 32
+
+Phase 4: Reads 6 integers into array. Loops through array and...
+First & second num = 1
+ebx = arr[1]
+eax = arr[2] + arr[1]
+arr[3] = eax?
+So
+arr[x] = arr[x-1] + arr[x-2]
+
+Phase 5: Reads 2 integers and performs recursion on first
+First integer must be < 0xF
+Second integer must be 27
+
+Scripted the recursion
+Solution: 9 27
+
+Phase 6: Reads 6 integers into array. Loops through array and...
+Makes sure all numbers are <= 6
+Makes sure all numbers are unique (1-6)
+Creates an array with preset values
+Solution: 1 6 4 2 5 3
+
+Secret Phase?: Requirements:
+num_input_strings = 6 (must have completed all 6)
+
+OS TAs screwed up. Unreachable
+

@@ -1,1 +1,1 @@
-flag{h00ray_4_compil3rs}
+flag{XXXXXXXX}
